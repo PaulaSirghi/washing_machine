@@ -1,0 +1,16 @@
+i<>.\src\SelectareModMUX.vhd
+i<>.\src\clatire.vhd
+i<>.\src\spalare_principala.vhd
+i<>.\src\MUX_afis.vhd
+i<>.\src\NUMARATOR_modulo10_inv.vhd
+i<>.\src\OR4.vhd
+i<>.\src\timer_mux.vhd
+i<>.\src\dcd_afisor.vhd
+i<>.\src\OR2.vhd
+i<>.\src\centrifugare.vhd
+i<>.\src\clatireSuplimentara.vhd
+i<>.\src\prespalare.vhd
+i<>.\src\DivizorDeFrecventa.vhd
+i<>.\src\NumaratorPrincipal.vhd
+i<>.\src\TIMER.vhd
+i<>.\src\PROIECT.vhd

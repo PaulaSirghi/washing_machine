@@ -1,0 +1,267 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 USA
+$IN 1 0 USA
+$IN 5 1 CLK
+$IN 9 1 start
+$IN 1 0 usa
+$IN 5 0 clk
+I 2 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 21 2 2 temp
+$SC 13 +4
+$OUT +5 1 A
+$OUT +4 1 I
+$OUT +4 1 R60
+$OUT +4 1 E
+$OUT +4 1 ABLE
+$ENDTIME 100000
+$WAVES 5
+=0 T 0
+R 1 2 =1 T 50k
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES 30
+*0
+=2 D 50k 1
+$VALUES
+V 2
+0
+1
+$END
+$WAVES 1 9
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES +4 +4 +5 +4 +8 +4
+*0
+$VALUES
+V 1
+0
+$END
+$ENDTIME 200000
+$WAVES 5
+=3 T 150k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 300000
+$WAVES 5
+=4 T 250k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 400000
+$WAVES 5
+=5 T 350k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 500000
+$WAVES 5
+=6 T 450k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 600000
+$WAVES 5
+=7 T 550k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 700000
+$WAVES 5
+=8 T 650k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$IN 1 0 usa
+$IN 9 0 start
+$IN 5 0 clk
+$BUS IN 42 2 2 temp
+$SC 13 +4
+$OUT +5 0 A
+$OUT +4 0 I
+$OUT +4 0 R60
+$OUT +4 0 E
+$OUT +4 0 ABLE
+$ENDTIME 1200000
+$WAVES 5
+=9 T 700k
+R 1 10 *1
+$VALUES
+R 2 5 0 1
+V 1
+0
+$END
+$WAVES 30
+*9
+$VALUES
+V 1
+1
+$END
+$WAVES 9
+*9
+$VALUES
+V 1
+1
+$END
+$WAVES 38
+*9
+$VALUES
+V 1
+0
+$END
+$WAVES 1
+*9
+$VALUES
+V 1
+1
+$END
+$WAVES 13
+*9
+$VALUES
+V 1
+0
+$END
+$WAVES +4
+*9
+=10 D 0 1
+$VALUES
+V 2
+0
+1
+$END
+$WAVES +5
+*9
+$VALUES
+V 1
+0
+$END
+$WAVES +4
+*9
+$VALUES
+V 1
+0
+$END
+$WAVES +8
+*9
+$VALUES
+V 1
+0
+$END
+$ENDTIME 1700000
+$WAVES 5
+=11 T 1250k
+R 1 9 *1
+$VALUES
+R 2 5 1 0
+$END
+$IN 1 0 usa
+$IN 9 0 start
+$IN 5 0 clk
+$BUS IN 43 2 2 temp
+$SC 13 +4
+$OUT +5 0 A
+$OUT +4 0 I
+$OUT +4 0 R60
+$OUT +4 0 E
+$OUT +4 0 ABLE
+$OUT +0 0 ABLE
+I 3 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 64 3 5 timp
+$SC 44-60/4
+$ENDTIME 2200000
+$WAVES 5
+=12 T 1700k
+R 1 10 *1
+$VALUES
+R 2 5 0 1
+V 1
+0
+$END
+$WAVES 30
+*12
+$VALUES
+V 1
+1
+$END
+$WAVES 9
+*12
+$VALUES
+V 1
+1
+$END
+$WAVES 38
+*12
+$VALUES
+V 1
+0
+$END
+$WAVES 1
+*12
+$VALUES
+V 1
+1
+$END
+$WAVES 13
+*12
+$VALUES
+V 1
+0
+$END
+$WAVES +4
+*12
+$VALUES
+V 1
+1
+$END
+$WAVES +5
+*12
+$VALUES
+V 1
+0
+$END
+$WAVES +4
+*12
+$VALUES
+V 1
+0
+$END
+$WAVES +8
+*12
+$VALUES
+V 1
+0
+$END
+$WAVES 44-60/4
+*12
+$VALUES
+V 1
+X
+$END
+$ENDWAVE

@@ -1,0 +1,74 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 9 1 2 TEMP0
+$SC 1 5
+$BUS IN 18 1 2 VIT0
+$SC 10 +4
+$IN +5 2 PRE0
+$IN +4 2 SUPL0
+I 3 "a#28#std_logic_vector(2 downto 0)1 ricd2 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 39 3 3 SEL
+$SC 27-+8/4
+$IN +5 2 USA
+$IN +4 2 PORNIRE
+$IN +4 2 clk_i
+$OUT +4 2 ALIMENTARE
+$OUT +4 2 EVACUARE
+$OUT +4 2 INCALZIRE
+$OUT +4 2 ROTIRE60
+$OUT +4 2 6 1 "12"
+$OUT +4 2 6 1 "80"
+$OUT +4 2 6 2 "10"
+$OUT +4 2 7 2 "2"
+$OUT +4 2 DEBLOCARE
+I 4 "a#28#std_logic_vector(6 downto 0)1 ricd6 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT +32 4 7 IESIRE
+$SC 88-+24/4
+$ENDTIME 944054900000
+$WAVES 84
+=0 T 0
+=1 D 0 1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 48
+*0
+R 1 18881098 =2 T 50k
+$VALUES
+R 2 9440549 0 1
+V 1
+0
+$END
+$WAVES 1 5 +5 +4 +9-35/4 72-+8/4
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 19 40 +4
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES +8-68/4 88 +16-+8/4
+*0
+*1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 92-+8/4
+*0
+*1
+$VALUES
+V 2
+U
+1
+$END
+$ENDWAVE

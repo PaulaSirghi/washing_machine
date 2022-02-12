@@ -1,0 +1,227 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 9 1 2 TEMP
+$SC 1 5
+$IN +5 2 CLK
+$OUT +4 2 A
+$OUT +4 2 E
+$OUT +4 2 ABLE
+I 3 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 46 3 5 timp
+$SC 26-42/4
+$IN +5 2 usa
+$IN +4 2 start
+$IN 10 0 clk
+$BUS IN 55 1 2 temp
+$SC 1 5
+$OUT +9 0 A
+$OUT 56 2 I
+$OUT +4 2 R60
+$OUT 18 0 E
+$OUT +4 0 ABLE
+$IN 10 0 clk
+$IN 47 0 usa
+$IN +4 0 start
+$IN 10 0 clk
+$BUS IN 64 1 2 temp
+$SC 1 5
+$OUT +9 0 A
+$OUT 56 0 I
+$OUT +4 0 R60
+$OUT 18 0 E
+$OUT +4 0 ABLE
+$IN 47 0 usa
+$IN +4 0 start
+$IN 10 0 clk
+$BUS IN 65 1 2 temp
+$SC 1 5
+$OUT +9 0 A
+$OUT 56 0 I
+$OUT +4 0 R60
+$OUT 18 0 E
+$OUT +4 0 ABLE
+$ENDTIME 100000
+$WAVES 10
+=0 T 0
+R 1 2 =1 T 50k
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES 1 5 +9-+8/4 47 +4 +5 +4
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 26 +4 42
+*0
+=2 D 0 1
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 34 +4
+*0
+*2
+$VALUES
+V 2
+U
+0
+$END
+$ENDTIME 200000
+$WAVES 10
+=3 T 150k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 300000
+$WAVES +0
+=4 T 250k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 400000
+$WAVES +0
+=5 T 350k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 47
+=6 D 300k 1
+$VALUES
+V 1
+1
+$END
+$WAVES +4
+*6
+$VALUES
+V 1
+1
+$END
+$WAVES 42
+=7 D 350k 1
+$VALUES
+V 1
+0
+$END
+$WAVES 14
+*7
+$VALUES
+V 1
+1
+$END
+$ENDTIME 500000
+$WAVES 10
+=8 T 450k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 42
+=9 D 450k 1
+$VALUES
+V 1
+1
+$END
+$WAVES 14
+*9
+$VALUES
+V 1
+0
+$END
+$WAVES 38
+*9
+$VALUES
+V 1
+1
+$END
+$WAVES 5
+=10 D 400k 1
+$VALUES
+V 1
+1
+$END
+$WAVES 30
+*9
+$VALUES
+V 1
+0
+$END
+$WAVES +4
+*9
+$VALUES
+V 1
+1
+$END
+$WAVES 56
+*9
+$VALUES
+V 1
+1
+$END
+$ENDTIME 600000
+$WAVES 10
+=11 T 550k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 42
+=12 D 550k 1
+$VALUES
+V 1
+0
+$END
+$ENDTIME 700000
+$WAVES 10
+=13 T 650k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 42
+=14 D 650k 1
+$VALUES
+V 1
+1
+$END
+$WAVES 38
+*14
+$VALUES
+V 1
+0
+$END
+$WAVES 56
+*14
+$VALUES
+V 1
+0
+$END
+$WAVES +4
+*14
+$VALUES
+V 1
+1
+$END
+$ENDWAVE

@@ -1,0 +1,70 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=MasinaDeSpalat
+
+[Library]
+MasinaDeSpalat=.\MasinaDeSpalat.lib
+
+[$LibMap$]
+MasinaDeSpalat=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=spalare_principala|spalare|0        
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/SelectareModMUX.vhd=-1
+/clatire.vhd=-1
+/centrifugare.vhd=-1
+/spalare_principala.vhd=-1
+/clatireSuplimentara.vhd=-1
+/prespalare.vhd=-1
+/MUX_afis.vhd=-1
+/NUMARATOR_modulo10_inv.vhd=-1
+/OR4.vhd=-1
+/OR2.vhd=-1
+/timer_mux.vhd=-1
+/dcd_afisor.vhd=-1
+/DivizorDeFrecventa.vhd=-1
+/NumaratorPrincipal.vhd=-1
+/TIMER.vhd=-1
+/PROIECT.vhd=-1
+
+[Files.Data]
+.\src\SelectareModMUX.vhd=VHDL Source Code
+.\src\clatire.vhd=VHDL Source Code
+.\src\centrifugare.vhd=VHDL Source Code
+.\src\spalare_principala.vhd=VHDL Source Code
+.\src\clatireSuplimentara.vhd=VHDL Source Code
+.\src\prespalare.vhd=VHDL Source Code
+.\src\MUX_afis.vhd=VHDL Source Code
+.\src\NUMARATOR_modulo10_inv.vhd=VHDL Source Code
+.\src\OR4.vhd=VHDL Source Code
+.\src\OR2.vhd=VHDL Source Code
+.\src\timer_mux.vhd=VHDL Source Code
+.\src\dcd_afisor.vhd=VHDL Source Code
+.\src\DivizorDeFrecventa.vhd=VHDL Source Code
+.\src\NumaratorPrincipal.vhd=VHDL Source Code
+.\src\TIMER.vhd=VHDL Source Code
+.\src\PROIECT.vhd=VHDL Source Code
+

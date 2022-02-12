@@ -1,0 +1,49 @@
+$WAVE4
+$RESOLUTION 1000
+$ENDTIME 100000
+I 1 "a#24#std_logic_vector(0 to 5)1 rict0 5 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 1 1 6 MANUAL
+$SC 7-+5
+I 3 "a#24#std_logic_vector(0 to 2)1 rict0 2 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 2 3 3 MODUL
+$SC 13-+2
+I 4 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT 3 4 2 TEMP
+$SC 16 +1
+$BUS OUT 4 4 2 VIT
+$SC 18 +1
+$OUT 5 2 PRESPALARE
+$OUT 6 2 CLATIRE_SUPLIMENTARA
+P 0 1-19 CS "0"
+P 0 1 Stimulator "VAL:FRM:Override:00000:<= 00000:0:"
+P 0 2 Stimulator "VAL:FRM:Override:001:<= 001:0:"
+$WAVES 5 6 16 +1 +2
+=0 T 0
+=1 D 0 2
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 7-+7
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES +1
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES +3
+*0
+*1
+$VALUES
+V 2
+U
+1
+$END
+$ENDWAVE

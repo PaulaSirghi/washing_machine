@@ -1,0 +1,129 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 9 1 2 TEMP0
+$SC 1 5
+$BUS IN 18 1 2 VIT0
+$SC 10 +4
+$BUS IN +5 1 2 VIT0
+$SC 10 +4
+$IN +6 2 PRE0
+$IN +4 2 SUPL0
+I 3 "a#28#std_logic_vector(2 downto 0)1 ricd2 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 40 3 3 SEL
+$SC 28-+8/4
+$IN +5 2 USA
+$IN +4 2 PORNIRE
+$IN +4 2 clk_i
+$OUT +4 2 ALIMENTARE
+$OUT +4 2 EVACUARE
+$OUT +4 2 INCALZIRE
+$OUT +4 2 ROTIRE60
+$OUT +4 2 6 1 "12"
+$OUT +4 2 6 1 "80"
+$OUT +4 2 6 2 "10"
+$OUT +4 2 7 2 "2"
+I 4 "a#28#std_logic_vector(6 downto 0)1 ricd6 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT +32 4 7 IESIRE
+$SC 85-+24/4
+$OUT +5 2 DEBLOCARE
+$BUS S +12 1 2 TEMP
+$SC +-8 +4
+$BUS S +13 1 2 VIT
+$SC +-8 +4
+$S +5 2 SUPL
+$S +4 2 PRE
+$S +4 2 fin1
+$S +4 2 fin2
+$S +4 2 fin3
+$S +4 2 FIN4
+$S +4 2 RESET
+I 5 "a#28#std_logic_vector(5 downto 0)1 ricd5 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +28 5 6 MANUAL
+$SC 164-+20/4
+$S +5 2 ALIMENTARE1
+$S +4 2 INCALZIRE1
+$S +4 2 ROTIRE60_1
+$S +4 2 EVACUARE1
+$S +4 2 ALIMENTARE2
+$S +4 2 EVACUARE2
+$S +4 2 ROTIRE120_2
+$S +4 2 ALIMENTARE3
+$S +4 2 INCALZIRE3
+$S +4 2 EVACUARE3
+$S +4 2 ROTIRE60_3
+$S +4 2 ALIMENTARE4
+$S +4 2 EVACUARE4
+$S +4 2 ROTIRE120_4
+$S +4 2 clk
+$ENDTIME 1795555500000
+$WAVES +0
+=0 T 0
+=1 D 50k 1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 114
+*0
+=2 D 0 1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 49
+*0
+R 1 35911110 =3 T 50k
+$VALUES
+R 2 17955555 0 1
+V 1
+0
+$END
+$WAVES 1 5 +5 +4 28-+8/4 73-+8/4 +63-+16/4 +29-+52/4
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 20 +4 41 +4
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES +8-69/4 85 +16-+8/4 +55-+12/4
+*0
+*2
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 89-+8/4 +83 +4
+*0
+*2
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 118 +4 +5 +4
+*0
+=4 D 0 3
+$VALUES
+V 2
+U
+0
+$END
+$WAVES +5 +4
+*0
+*4
+$VALUES
+V 2
+U
+1
+$END
+$ENDWAVE
